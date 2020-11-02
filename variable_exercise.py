@@ -11,3 +11,5 @@ age = input("Please enter age: ")
 
 print("Hi", name, "is am  correct to believe you are born on the following date? > " + dob,
       "and you are", age + ".")
+
+print('name: {}, dob: {}, age: {}'.format(name, age, dob))
