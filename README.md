@@ -18,5 +18,3 @@
 
 
 #### Data Types and Operators
-
-"# Python_Projects" 
