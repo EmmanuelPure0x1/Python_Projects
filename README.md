@@ -11,10 +11,8 @@
 #### Variable
 - Placeholder for data
 
-#### Pseudo Coding
+#### Pseudo Code
 - Basically it is a translation of your code
 
 #### Variables 
-
-
 #### Data Types and Operators
