@@ -45,3 +45,29 @@ print("\n")
 # Looping through the dictionary values
 for key, value in devops_student_data.items():
     print(key + ':', value)
+
+
+# TASK:
+# create a new dict
+# name, dob, address, course, grades
+# create a list of hobbies of at least 3 items
+# methods of dictionary remove, add, replace
+# display data in reverse order of hobby list
+
+new_dict = {
+    "name":"Emmanuel",
+    "dob":"12/12/12",
+    "address":"Bromley rd",
+    "course":"DevOps",
+    "grades":"A",
+    "hobbies":["table tennis", "manga", "football"]
+}
+
+# remove
+print(new_dict.pop(new_dict["grades"]))
+# replace
+new_dict["name"] = "john"
+# reverse list
+print(new_dict["hobbies"][::-1])
+
+
