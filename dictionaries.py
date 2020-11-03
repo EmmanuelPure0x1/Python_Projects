@@ -23,14 +23,25 @@ print(devops_student_data["name"])
 
 # changing name value
 devops_student_data["name"] = "BabaJide"
+devops_student_data["completed_lessons"] = 5
 print(devops_student_data["name"])
+print(devops_student_data["completed_lessons"])
+
 print("\n")
 
 # print keys or values from dict
 print(devops_student_data.keys())
 print(devops_student_data.values())
+print(devops_student_data.items())
+print("\n")
 
 # How can we fetch the value called data types
 print(devops_student_data["completed_lesson_name"][2])
 print(devops_student_data["completed_lesson_name"][:1])
 print(devops_student_data["completed_lesson_name"][:])
+
+print("\n")
+
+# Looping through the dictionary values
+for key, value in devops_student_data.items():
+    print(key + ':', value)
