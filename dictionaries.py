@@ -69,7 +69,14 @@ new_dict["new val"] = "hello world!"
 new_dict["name"] = "john"
 # reverse list
 print(new_dict["hobbies"][::-1])
+# remove
+new_dict.pop("grades")
 
+# dict_print
 print(new_dict)
 
+print("\n")
 
+# loop print
+for key, value in new_dict.items():
+    print(key + ':', value)
