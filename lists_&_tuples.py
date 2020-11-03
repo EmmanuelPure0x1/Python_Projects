@@ -52,11 +52,31 @@
 # print(shopping_list)
 
 # can we have mixed data types in the list?
-mixed_shopping_list = [1,2,3,"apple", "milk", "bread"]
-print(mixed_shopping_list)
+# mixed_shopping_list = [1,2,3,"apple", "milk", "bread"]
+# print(mixed_shopping_list)
 
 # Task Create a mixed data type list pf 7 items
 # display the type of the data
 # add, delete, replace, pop,
 # use indexing to print the list in reverse order
 
+# Tuples are IMMUTABLE - CAN'T BE CHANGED
+# Use case NI number, DOB, place of birth
+
+# Syntax: we use () to declare a tuple
+
+millionth_tuple = ("SG138392X","25-12-00","Belgium")
+print(type(millionth_tuple))
+print(millionth_tuple)
+
+# millionth_tuple[1] = "Emmanuel"
+
+new_millionth_tuple = []
+
+for i in millionth_tuple:
+    new_millionth_tuple.append(i)
+
+print(new_millionth_tuple)
+
+print(new_millionth_tuple[:])
+print(new_millionth_tuple[::-1])
