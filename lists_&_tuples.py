@@ -77,6 +77,5 @@ for i in millionth_tuple:
     new_millionth_tuple.append(i)
 
 print(new_millionth_tuple)
-
 print(new_millionth_tuple[:])
 print(new_millionth_tuple[::-1])
