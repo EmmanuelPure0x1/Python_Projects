@@ -80,3 +80,12 @@ print("\n")
 # loop print
 for key, value in new_dict.items():
     print(key + ':', value)
+print("\n")
+
+# adding and removing item inside the dictionary list
+
+new_dict["hobbies"].append("running")
+print(new_dict)
+
+new_dict["hobbies"].remove("running")
+print(new_dict)
