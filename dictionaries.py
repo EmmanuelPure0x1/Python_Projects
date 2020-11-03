@@ -63,11 +63,13 @@ new_dict = {
     "hobbies":["table tennis", "manga", "football"]
 }
 
-# remove
-print(new_dict.pop(new_dict["grades"]))
+# add
+new_dict["new val"] = "hello world!"
 # replace
 new_dict["name"] = "john"
 # reverse list
 print(new_dict["hobbies"][::-1])
+
+print(new_dict)
 
 
