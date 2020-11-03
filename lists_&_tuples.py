@@ -55,7 +55,7 @@
 mixed_shopping_list = [1,2,3,"apple", "milk", "bread"]
 print(mixed_shopping_list)
 
-#Task Create a mixed data type list pf 7 items
+# Task Create a mixed data type list pf 7 items
 # display the type of the data
 # add, delete, replace, pop,
 # use indexing to print the list in reverse order

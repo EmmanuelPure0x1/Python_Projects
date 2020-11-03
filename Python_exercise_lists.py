@@ -1,4 +1,4 @@
-#Task Create a mixed data type list pf 7 items
+# Task Create a mixed data type list pf 7 items
 # display the type of the data
 # add, delete, replace, pop,
 # use indexing to print the list in reverse order
@@ -14,9 +14,12 @@ print(memorable_information)
 memorable_information.remove("fruits")
 print(memorable_information)
 
-#replace
+# replace
 memorable_information[3] = "Belgian"
 print(memorable_information)
 
-#pop
+# pop
 print(memorable_information.pop())
+
+memorable_information.reverse()
+print(memorable_information)
