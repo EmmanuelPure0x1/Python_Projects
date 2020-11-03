@@ -27,3 +27,8 @@ print(memorable_information)
 
 # Alternative way of reversing list
 print(memorable_information[::-1])
+
+print("\n")
+# for loop printing is the type of each 'thing' in the list
+for i in memorable_information:
+    print(type(i))
