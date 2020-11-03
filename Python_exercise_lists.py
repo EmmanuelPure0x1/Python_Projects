@@ -21,5 +21,9 @@ print(memorable_information)
 # pop
 print(memorable_information.pop())
 
+# reversing list
 memorable_information.reverse()
 print(memorable_information)
+
+# Alternative way of reversing list
+print(memorable_information[::-1])
